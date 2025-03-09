@@ -1,0 +1,34 @@
+{
+    "apps": [
+        {
+            "name": "hello",
+            "script": "index.js",
+"cwd": "C:\\Users\\SHREERAJ\\Desktop\\WEB PROJECTS\\pm2\\hello",
+            "watch": true,
+            "ignore_watch": [
+                "node_modules",
+                "public"
+            ],
+            "exec_mode": "cluster",
+            "instances": 1,
+            "env": {
+                "NODE_ENV": "development"
+            }
+        },
+        {
+            "name": "bhai",
+            "script": "index.js",
+"cwd": "C:\\Users\\SHREERAJ\\Desktop\\WEB PROJECTS\\pm2\\bhai",
+            "watch": true,
+            "ignore_watch": [
+                "node_modules",
+                "public"
+            ],
+            "exec_mode": "cluster",
+            "instances": 1,
+            "env": {
+                "NODE_ENV": "development"
+            }
+        }
+    ]
+}
